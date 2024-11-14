@@ -43,12 +43,3 @@ a {
 }
 
 /* MOBILE */
-
-@media only screen and (max-width: 768px) {
-    #hostBanner {
-        position: fixed;
-        top: -32px;
-        left: -32px;
-        transform: rotate(-90deg) scale(0.5);
-    }
-}
