@@ -8,18 +8,29 @@
         <link rel="stylesheet" href="../../resources/css/libraries/bulma-1.0.2/css/bulma.min.css">
         <link rel="stylesheet" href="../../resources/css/main.css">
         <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!-- integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
-        <script src="../../resources/js/main.js"></script>
+        <script src="../../resources/js/page-34.js"></script>
     </head>
     <body>
         <section id="header" class="hero has-background-color-dark-orange is-fullheight">
             <div class="hero-body">
                 <div class="container">
-                    <figure class="image is-square is-hidden-mobile has-half-width has-half-height">
-                        <img src="../../resources/media/images/this_is_the_qr_code.png" alt="QR Code" />
-                    </figure>
-                    <figure class="image is-hidden-tablet">
-                        <img src="../../resources/media/images/this_ia_the_qr_code.png" alt="QR Code" />
-                    </figure>
+                    <nav class="level is-hidden-touch">
+                        <div class="level-item">
+                            <figure class="image">
+                                <img id="qrCode" src="../../resources/media/images/qrCode1.png" alt="QR Code"/><!--Go to page 200-->
+                            </figure>
+                        </div>
+                    </nav>
+                    <nav id="qrMessage" class="level is-hidden-touch mt-5">
+                        <div class="level-item has-text-centered">
+                            <h1 class="title has-text-black has-text-centered">
+                                You're on desktop. Go to mobile.
+                            </h1>
+                        </div>
+                    </nav>
+                   <h1 class="title is-hidden-desktop has-text-black">
+                        You're on mobile. Go to desktop mode.
+                    </h1>
                 </div>
             </div>
         </section>
