@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="../../../resources/css/libraries/bulma-1.0.2/css/bulma.min.css">
         <link rel="stylesheet" href="../../../resources/css/main.css">
         <link rel="stylesheet" href="../../../resources/css/page-34.css">
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script><!-- integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script><!-- integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
         <script src="../../../resources/js/main.js"></script>
         <script src="../../../resources/js/page-34.js"></script>
     </head>
@@ -16,7 +16,7 @@
         <section id="header" class="hero has-background-color-dark-orange is-fullheight">
             <div class="hero-body">
                 <div class="container">
-                    <nav class="level is-hidden-touch">
+                    <nav id="qrCodeContainer" class="level">
                         <div class="level-item">
                             <figure class="image">
                                 <img id="qrCode" src="../../../resources/media/images/qrCode1.png" alt="QR Code"/><!--Go to page 200-->
@@ -30,8 +30,8 @@
                             </h1>
                         </div>
                     </nav>
-                   <h1 class="title is-hidden-desktop has-text-black">
-                        You're on mobile. Go to desktop mode.
+                   <h1 id="mobileDisplayContainer" class="title is-hidden-desktop has-text-black has-text-centered">
+                        You're on mobile. Go to <a onclick="enable_desktop_mode(true)">desktop mode</a>.
                     </h1>
                 </div>
             </div>
