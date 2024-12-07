@@ -28,6 +28,19 @@ a {
     background-color: DarkOrange;
 }
 
+.has-background-color-dark-orange-inverted {
+    background-color:  invert(DarkOrange);
+}
+
+.has-text-color-dark-orange {
+    color: darkorange;
+}
+
+.is-2525 {
+    height: 25vh;
+    width: 25vw;
+}
+
 .has-half-width {
     width: 50vw;
 }
